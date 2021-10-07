@@ -39,6 +39,7 @@ ul {
 
 .nav_brand {
     width: 50px;
+    transition:.59s;
 }
 
 /* Left NAV */
@@ -147,7 +148,12 @@ hr{
 .float-efect:hover {
     margin-top: -12px;
 }
-/*Float Efect End  */
+
+/*Img Hover*/
+
+.nav_brand:hover {
+    width: 60px;
+}
 
 /* Cards banner */
 .cards-banner-one {
@@ -162,3 +168,9 @@ hr{
     padding: 90px 0 0 30px;
     color: #fff;
   }
+
+/* Cards Banner Two*/
+.cards-banners-two {
+     background: url(../img/image-five.jpg) no-repeat center;
+
+}
